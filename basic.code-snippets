@@ -1,0 +1,48 @@
+{
+	"Test Cases Input": {
+		"scope": "python",
+		"prefix": "ti",
+		"body": [
+			"for ___ in range(int(input())):",
+			"\t$0"
+		],
+		"description": "Input Tests"
+	},
+
+	"Integer Array Input": {
+		"scope": "python",
+		"prefix": "ai",
+		"body": [
+			"[*map(int, input().split())]"
+		],
+		"description": "Input Tests"
+	},
+
+	"Integer Matrix Input": {
+		"scope": "python",
+		"prefix": "mati",
+		"body": [
+			"[[int(i) for ______ in input().split()] for _______ in range(${1:rows})]",
+		],
+		"description": "Input Integer Matrix"
+	},
+
+	"Character Matrix Input": {
+		"scope": "python",
+		"prefix": "cmi",
+		"body": [
+			"[[*input()] for _______ in range(${1:rows})]"
+		],
+		"description": "Input Character Array like a map/grid"
+	},
+	"Integer Input": {
+		"scope": "python",
+		"prefix": "ii",
+		"body": [
+			"map(int, input().split())",
+		],
+		"description": "Get a bunch of integers in one line"
+	},
+
+
+}
